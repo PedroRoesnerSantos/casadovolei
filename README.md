@@ -1,1 +1,131 @@
-mini teste doq por nessa bagaça
+baixar as imagens para o site funcionar 100%: https://drive.google.com/file/d/1FAP9JUfZKRqHkP9qPwX0Du4WB-UGQQYM/view?usp=sharing
+ estrutura:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Casa do Volei</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 style="font-size: 40px; text-align: center"> Casa do Vôlei </h1>
+
+    <p style="font-size: 23px; text-align: center">Bem-Vindo à Casa do Vôlei, <strong>hermano!</strong></p>
+
+    <p style="font-size: 23px; text-align: center">Voleibol é um esporte onde você não pode deixar a bola cair na sua quadra, mas você não pode <em>segurá-la</em> nem a <em>conduzir</em> em nenhum momento.</p>
+
+    <p style="font-size: 23px; text-align: center">No vôlei, cada time tem 6 pessoas em quadra pra jogar contra o outro time com o mesmo número de adversários do lado deles na quadra, o time tem apenas 3 toques pra fazer sua jogada, mas, não se preocupe, em nenhum momento você estará sozinho em quadra.</p>
+
+    <p style="font-size: 23px; text-align: center">Nesse esporte, naturalmente, cada equipe terá um melhor jogador entre todos os 6, sim, habilidade individual é muito importante no vôlei,(principalmente considerando saque) mas aqui a coletividade é tão importante quanto, ou até mais.</p>
+
+    <p style="font-size: 23px; text-align: center">Cada jogador em quadra tem sua respectiva posição, ou porquê o jogador se sente mais a vontade e consegue usar mais do seu potecial com esse cargo, ou porquê seu treinador viu uma oportunidade nesse jogador por algum dom/vantagem natural que ele tem.</p>
+
+    <p style="font-size: 23px; text-align: center">Pra facilitar um pouco a compreensão, <strong>listarei elas aqui.</strong></p>
+
+    <p style="font-size: 30px; text-align: center"><strong>Líbero:</strong></p>
+
+    <p style="font-size: 18px; text-align: center">Pessoas nas fotos: jogadores de voleibol, líberos, Thales Hoss e Maique Nascimento.</p>
+
+    <div class="imgposicao">
+        <img id="imgposicao" src="thaleslibero.jfif">
+        <img id="imgposicao" src="maiquelibero.jpg">
+    </div>
+
+    <p style="font-size: 20px; text-align: center">No vôlei, o líbero é o jogador que coordena a defesa do time, sendo especializado em recepção e defesa, o líbero só pode jogar nas posições 1, 5 e 6 na quadra, ou seja, <strong>na área de fundo da quadra, </strong>atrás da linha dos três metros, mas ele não é proibido de entrar na zona de ataque ao decorrer do jogo, o líbero também pode executar um levantamento se necessário, mas não podendo invadir a zona de ataque durante o levantamento, caso contrário, um outro jogador não pode concluir uma ação de ataque golpeando a bola completamente acima do bordo superior da rede.</p>
+
+    <p style="font-size: 20px; text-align: center">As substituições do líbero são ilimitadas e devem ser efetuadas antes do apito para o saque, sem solicitar autorização ao árbitro. A permanência do jogador líbero está sujeita à rotação do titular de quem ele toma o seu lugar, tendo que, necessariamente, colocá-lo quando ele volta à primeira linha (posição 4). Normalmente, no voleibol moderno, o líbero entra no lugar do central do fundo e permanece na quadra até que, no rodízio, o outro central vá para o fundo (e, hipoteticamente, o líbero iria para a zona de ataque), dando lugar para aquele central que havia sido substituído. O líbero volta no rally seguinte, novamente no lugar do central do fundo.</p>
+
+    <p style="font-size: 30px; text-align: center"><strong>Oposto:</strong></p>
+
+    <p style="font-size: 18px; text-align: center">Pessoas nas fotos: jogadores de voleibol, opostos, Darlan e Alan Souza.</p>
+
+    <div class="imgposicao">
+        <img id="imgposicao" src="darlanoposto.jpg">
+        <img id="imgposicao" src="alanoposto.jpeg">
+    </div>
+
+    <p style="font-size: 20px; text-align: center">No vôlei, normalmente, o oposto é o jogador mais especializado em ataque no time, o oposto pode jogar em qualquer posição, normalmente ataca nas posições 2 e 4, além das posições do fundo. É para o oposto que é mandada a "bola de segurança", que é quando o time não quer arriscar muito.</p>
+
+    <p style="font-size: 20px; text-align: center">O oposto é responsável por atacar, defender e passar a bola na linha de trás. Devido à sua localização na quadra, eles também substituem o levantador quando necessário. Ser habilidoso tanto no ataque quanto na defesa é necessário porque eles jogarão ambos com frequência, o oposto é justamente o jogador que sempre atua na posição contrária a do levantador, em sua diagonal.</p>
+
+    <p style="font-size: 20px; text-align: center">Por jogar no lado direito da quadra, tanto na zona de ataque quanto de defesa, os opostos normalmente são <strong>canhotos.</strong></p>
+
+    <p style="font-size: 30px; text-align: center"><strong>Ponteiro:</strong></p>
+
+    <p style="font-size: 18px; text-align: center">Pessoas nas fotos: jogadores de voleibol, ponteiros, Ricardo Lucarelli Santos de Souza e Henrique Honorato.</p>
+
+    <div class="imgposicao">
+        <img id="imgposicao" src="lucarelliponteiro.webp">
+        <img id="imgposicao" src="honoratoponteiro.webp">
+    </div>
+
+    <p style="font-size: 20px; text-align: center">No vôlei, o ponteiro fica posicionado nas laterais da quadra. Ele ataca pela entrada e saída de rede, mas também têm a função de defender o ataque do time adversário, ajudando o líbero nos passes de defesa. Existe o chamado “ponteiro-passador”, um jogador que é bom tanto na recepção, quanto como opção ofensiva. Por isso, os treinadores tendem a escalar ponteiros especialistas em cada uma das funções (passador, recepção e ataque) para manter o equilíbrio tático.</p>
+
+    <p style="font-size: 20px; text-align: center">Do time, em quadra, o ponteiro é o jogador mais completo.</p>
+
+    <p style="font-size: 30px; text-align: center"><strong>Levantador:</strong></p>
+
+    <p style="font-size: 18px; text-align: center">Pessoas nas fotos: jogadores de voleibol, levantadores, Bruno Mossa de Rezende e Fernando Gil Kreling.</p>
+
+    <div class="imgposicao">
+        <img id="imgposicao" src="bruninholevantador.webp">
+        <img id="imgposicao" src="cachopalevantador.jpg">
+    </div>
+
+    <p style="font-size: 20px; text-align: center">No vôlei, o levantador é o jogador responsável por armar as jogadas de ataque de uma equipe por meio do levantamento. Jogadores dessa posição precisam de boa visão e leitura do jogo da sua equipe e da equipe adversária, inteligência pra escolher a melhor opção de ataque e força mental pra se manter concentrado em momentos de pressão.</p>
+
+    <p style="font-size: 20px; text-align: center">O Levantamento é, quase sempre, o 2º toque na bola de uma equipe, ele acontece após o Passe (recepção do saque ou defesa) e deve preparar a bola para um Ataque. Sendo assim, o Levantador é responsável pelo 2º toque na bola dos três toque que uma equipe de Vôlei tem direito de dar em uma jogada.
+
+    <p style="font-size: 20px; text-align: center">Quando o Passe vindo da recepção do Saque ou da defesa de um ataque não é bem feito e a bola vai para longe da rede, o Levantador tem que ir em direção à bola, independe do local que a bola foi após o Passe. Nessa situação não há uma movimentação pré definida, o Levantador tem ir atrás da bola e usar seus recursos técnicos para corrigir o passe e fazer o melhor Levantamento possível.
+
+    <p style="font-size: 30px; text-align: center"><strong>Central:</strong></p>
+
+    <p style="font-size: 18px; text-align: center">Pessoas nas fotos: jogadores de voleibol, centrais, Lucas Saatkamp e Flávio Gualberto.</p>
+    
+    <div class="imgposicao">
+        <img id="imgposicao" src="lucaocentral.jpg">
+        <img id="imgposicao" src="flaviocentral.webp">
+    </div>
+
+    <p style="font-size: 20px; text-align: center">No vôlei, o central é um jogador especialista em Bloqueio e Ataques no meio da rede, por isso o nome “Central”. Em um time, normalmente, os centrais são os mais altos dos jogadores de um time. Ele deve se posicionar sempre no centro da rede durante o jogo, pra estar bem posicionado e preparado pra quando um bloqueio for necessário pra ajudar na defesa do time.</p>
+
+    <p style="font-size: 20px; text-align: center">Centrais além de especializados em bloqueio, são especializados em jogadas rápidas pelo centro de rede, uma jogada ensaiada que exige habilidade tanto do central quanto do levantador que estiver passando a bola para o ataque.</p>
+
+
+    <h1 style="font-size: 40px; text-align: center">Enfim</h1>
+
+    <p style="font-size: 23px; text-align: center">O Voleibol vem crescendo muito ultimamente, com jogadores ridiculamente habilidosos e geniais encantando o mundo com suas jogadas, seja o espectador um admirador assíduo do vôlei ou um novato (jogadas geniais encantam principalmente os novatos).</p>
+
+    <p style="font-size: 23px; text-align: center">O vôlei tem início no ano de 1895, criado por William George Morgan nos Estados Unidos.</p>
+
+    <h1 style="font-size: 23px; text-align: center">Na foto abaixo, William George Morgan.</h1>
+
+<div class="imgposicao">
+    <img id="wgm" src="wgm.jpg">
+</div>    
+
+    <h1 style="font-size: 40px; text-align: center">Títulos da Seleção Brasileira no Vôlei</h1>
+
+    <p style="font-size: 23px; text-align: center">6 medalhas nos Jogos Olímpicos: três de ouro e três de prata.</p>
+
+    <p style="font-size: 23px; text-align: center">No Campeonato Mundial, possui 7 medalhas: três de ouro, três de prata e uma de bronze.</p>
+
+    <p style="font-size: 23px; text-align: center">Na Copa do Mundo, possui 6 medalhas: três de ouro e três de bronze.</p>
+
+    <p style="font-size: 23px; text-align: center">Nos jogos Pan-Americanos, possui quatro medalhas de ouro, sete de prata e cinco de bronze.</p>
+
+    <p style="font-size: 23px; text-align: center">Na Copa dos Campeões, possui 5 medalhas de ouro e 2 de prata.</p>
+
+    <p style="font-size: 23px; text-align: center">No Campeonato Sul-Americano, 33 medalhas de ouro.</p>
+
+    <h1 style="font-size: 40px; text-align: center">Principais Potências</h1>
+
+    <p style="font-size: 23px; text-align: center">Atualmente, considerando os resultados das últimas competições, de acordo com a <strong>FIVB</strong> as principais potências no vôlei em ordem crescente são: Alemanha, Sérvia, França, Eslovênia, Argentina, Brasil, Japão, Itália, Estados Unidos e, na liderança, Polônia.</p>
+
+<div class="imgposicao">
+    <img id="podio" src="podio.png">
+</div>
+</body>
