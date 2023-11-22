@@ -1,0 +1,12 @@
+.imgposicao {
+    text-align: center;
+}
+
+#imgposicao {
+    width: 65%;
+    border: solid 4px;
+}
+
+#podio {
+    width: 35%;
+}
