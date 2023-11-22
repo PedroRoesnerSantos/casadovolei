@@ -130,3 +130,24 @@ baixar as imagens para o site funcionar 100%: https://drive.google.com/file/d/1F
     <img id="podio" src="podio.png">
 </div>
 </body>
+
+
+
+
+
+
+
+style.css:
+
+.imgposicao {
+    text-align: center;
+}
+
+#imgposicao {
+    width: 65%;
+    border: solid 4px;
+}
+
+#podio {
+    width: 35%;
+}
